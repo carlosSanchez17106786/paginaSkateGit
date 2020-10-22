@@ -1,0 +1,715 @@
+body{
+    background-color: black;
+}
+/*Estilos del index(cuerpo) de cards y de la pagina principal*/
+#headerIndex{
+    width: 100%;
+    height: 36rem;
+ 
+}
+#videoEncabezado{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+#tituloEncabezado{
+    font-family: 'Shadows Into Light', cursive;
+    position: absolute;
+    font-size: 150px;
+    color: white;
+    top: 0;
+    margin-top: 17%;
+    margin-left: 19%;
+}
+#rowUno{
+
+   background-color: black;
+   background-image: url(../imagenes/negrito.jpg);
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position: center;
+   background-size: 50% auto;
+   text-align: center;
+   height: 550px;
+}
+#rowDos{
+
+padding: 0px;
+position: relative;
+}
+
+
+#titulo1{
+     margin-left: auto;
+     margin-right: auto;
+    color: white;
+}
+#titulo2{
+     margin-left: auto;
+      margin-right: auto;
+    color: white;
+}
+#parrafo1{
+    margin: 15% auto;
+    color: white;
+    font-style: italic;
+    line-height: 30px;
+    position: relative;
+    z-index: 2;
+    
+}
+#divParaDecorar{
+    
+    position: absolute;
+    width: 40%;
+    height: 20rem;
+    border: 5px solid rgba(255, 160, 122,.9);;
+    right: 16%;
+    top: 15%;
+    border-radius: 10px; 
+    z-index: 1;
+    
+}
+.efectoI{
+
+    padding: 0;
+    height: 100%;
+
+}
+.img1{
+    border-radius: 20px;
+    width:55%;
+    position: relative;
+    top: 10%;
+    height: 77%;
+    transition: all 1s ease-out;
+
+}
+
+#col1{
+    padding: 50px 100px;
+    
+}
+#col2, #col3, #col4{
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+   
+   
+}
+#col2 > img, #col3 > img, #col4 > img{
+ width: 100%;   
+  object-fit: fill;
+  position: absolute;
+   top: 0px;  
+}
+.card{
+    background-color: black;
+    margin: 1%;
+    text-align: center;
+  
+}
+.card-body > h5{
+    color: white;
+   
+}   
+.card-body{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all .3s linear;
+}
+.card-group{
+    margin-top: 40px;
+    position: relative;
+    top:100px;
+    left: 19%;
+    top: 80%;
+    width: 60%;
+
+}
+.card-img-top{
+    height: 100%
+    
+}
+
+.card:hover > .card-img-top {
+    transform: scale(.8);
+    opacity: .7;
+    border-radius: 15px;
+    transition: all .3s linear;
+   
+}
+.card:hover > .card-body{
+    opacity: 1;
+      
+}
+/*Estilos para la pagina skate.php*/
+
+
+#encabezado{
+    width: 100%;
+    height: 400px; 
+    position: relative;
+    background: white;
+    padding: 0px;
+}
+#enca1{
+    
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 10%;
+    background: linear-gradient(to right,pink,white,white);
+    left: 0px;
+    
+}
+#enca2skate{
+     background: url(../imagenes/33005-skate.jpg) no-repeat center;
+     background-attachment: scroll;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   text-align: center;
+    position: absolute;
+    width: 80%;
+    left: 20%;
+    height: 97%;
+    top: 3%;
+    text-align: center;
+    
+}
+
+#enca3{
+    left: 5%;
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    text-align: center; 
+    
+}
+#enca3 > P{
+  font-size: 60px;
+  margin-top: 5%;
+  color: white;
+  font-family: serif;
+    
+}
+/*Cuerpo de la pagina skate*/ 
+
+
+#cuer2 > div{
+    
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    background-color: pink;
+    left: 20%;
+    top: 10%;
+    text-align: center;
+    border-radius: 10px;
+}
+#cuer2 > div > img{
+    position: relative;
+    top: 5rem;
+    height: 20rem;
+    
+}
+#cuer1{
+    color: white;
+    padding: 25px;
+  
+
+}
+.textoInformativo{
+ margin-top: 30px;
+ margin-left: 30px;
+ font-family: serif;
+}
+.divDecoracion{
+    position: absolute;
+    width: 40%;
+    height: 90%;
+    border: 2px solid rgba(255, 255, 255, .6);
+    
+}
+/*Parte del video y su decoracion*/
+#cuerpoVideo{
+    height: auto;
+    margin-top: 150px;
+    
+}
+#divVideoDecoracion{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    background: pink;
+    z-index: 1;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+#videoSkate{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30rem;
+    z-index: 2;
+}
+
+
+/*************************************************************************************/
+/*estilos para cruiser.php*/
+/*Encabzado*/
+#encabezadoCruiser{
+    width: 100%;
+    height: 400px; 
+    position: relative;
+    background: white;
+    padding: 0px;
+}
+#enca1Cruiser{
+    
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 10%;
+    background: linear-gradient(to left,#3498DB ,white,white);
+    left: 0px;
+    
+}
+#enca2Cruiser{
+     background: url(../imagenes/33029-skate.jpg) no-repeat center;
+     background-attachment: scroll;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   text-align: center;
+    position: absolute;
+    width: 80%;
+    left: 0px;
+    height: 97%;
+    top: 3%;
+    text-align: center;
+    
+}
+
+#enca3Cruiser{
+    left: 60%;
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    text-align: center; 
+    
+}
+#enca3Cruiser > P{
+  font-size: 60px;
+  margin-top: 5%;
+  color: white;
+  font-family: serif;
+    
+}
+
+
+/*Cuerpo de la pagina crusier*/ 
+
+
+#cuer2Crusier > div{
+    
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    background-color: #3498DB;
+    left: 20%;
+    top: 10%;
+    text-align: center;
+    border-radius: 10px;
+}
+#cuer2Crusier > div > img{
+    position: relative;
+    top: 4  rem;
+    height: 18rem;
+    
+}
+#cuer1Crusier{
+    color: white;
+    padding: 25px;
+  
+
+}
+
+/*Parte del video y su decoracion*/
+#cuerpoVideoCrusier{
+    height: auto;
+    margin-top: 150px;
+    
+}
+#divVideoDecoracionCrusier{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    background: #3498DB;
+    z-index: 1;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+#videoSkateCrusier{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30rem;
+    z-index: 2;
+}
+
+
+/***************************************************************************/
+/*Long.php*/
+/*Encabzado*/
+#encabezadoL{
+    width: 100%;
+    height: 400px; 
+    position: relative;
+    background: white;
+    padding: 0px;
+}
+#enca1L{
+    
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 10%;
+    background: linear-gradient(to left,#7D3C98  ,white,white);
+    left: 0px;
+    
+}
+#enca2L{
+     background: url(../imagenes/33046-skate.jpg) no-repeat center;
+     background-attachment: scroll;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   text-align: center;
+    position: absolute;
+    width: 80%;
+    left: 0px;
+    height: 97%;
+    top: 3%;
+    text-align: center;
+    
+}
+
+#enca3L{
+    left: 60%;
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    text-align: center; 
+    
+}
+#enca3L > P{
+  font-size: 60px;
+  margin-top: 5%;
+  color: white;
+  font-family: serif;
+    
+}
+/*Cuerpo de lonboard.php*/
+
+#cuer2L > div{
+    
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    background:  linear-gradient(to bottom,#7D3C98 ,#7D3C98,#7D3C98,white);
+    left: 20%;
+    top: 10%;
+    text-align: center;
+    border-radius: 10px;
+}
+#cuer2L > div > img{
+    position: relative;
+    top: 4rem;
+    height: 25rem;
+    
+}
+#cuer1L{
+    color: white;
+    padding: 25px;
+  
+}
+/*Parte del video y su decoracion*/
+#cuerpoVideoL{
+    height: auto;
+    margin-top: 150px;
+    
+}
+#divVideoDecoracionL{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    background: #7D3C98;
+    z-index: 1;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+#videoL{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30rem;
+    z-index: 2;
+}
+/***********************************************************************************************/
+/*Historia.php*/
+#encabezadoHistoria{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: url(../imagenes/sk8h5.jpg) no-repeat 0px 0px ,url(../imagenes/sk8h4.jpg) no-repeat 250px 0px, url(../imagenes/sk8h3.jpg) no-repeat 500px 0px,
+        url(../imagenes/sk8h2.jpg) no-repeat 750px 0px, url(../imagenes/sk8h1.jpg) no-repeat 1000px 0px;
+    background-size: 25% 100%,25% 100%,25% 100%,25% 100%,25% 100%;
+    text-align: center;
+     
+}
+#encabezadoHistoria > p{
+    position: relative;
+    color: white;
+    top: 25%;
+    font-family: sans;
+    font-size: 100px; 
+}
+
+/*Cuerpo de historia.php*/
+#cuerpoHistoria > section{
+    color: white;
+}
+#cuerpoHistoria > section > .row{
+    margin-bottom: 15px;
+    margin-top: 15px;
+     
+    
+}
+#cuerpoHistoria > section > .row > article{
+    text-align: center;
+    margin-left: 5%;
+    font-family: sans;
+    
+
+}
+#cuerpoHistoria > section > .row > article >div> div img{
+    width: 60%;
+    height: 50vh;
+     aling-item:center;
+    justify-content: center;
+}
+
+/**********************************************************************************************/
+/*marcas.php*/
+/*Contenedor principal*/
+#contenedorPrincipalMarcas{
+    background: white;
+}
+/*header*/
+#encabezadoMarcas{
+  background: url(../imagenes/8192-skate.jpg) no-repeat center;
+     background-attachment: scroll;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   text-align: center;
+    position: relative;
+    width: 100%;
+    left: 0px;
+    height: 50vh;
+    top: 0%;
+    text-align: center;
+    
+}
+#encabezadoMarcas > p{
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 25%;
+    font-family: sans;
+    font-size: 150px; 
+    color: white;
+    
+}
+
+
+/*cuerpo*/
+
+
+#cuerpoMarcas{
+    margin-top: 20px;
+    background-color: white;
+}
+
+
+#cuerpoMarcas > .row >  div > img{
+  width: 100%;  
+  height: 350px;
+  margin: 0px;
+  left: 0px;
+
+}
+#cuerpoMarcas > .row >  div{
+    margin-left: 80px;
+    margin-top: 20px;
+   
+    padding: 0px;
+    width: 30px;
+    
+}
+
+#cuerpoMarcas > .row >  div > div{
+     position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all .3s linear;
+}
+#cuerpoMarcas > .row >  div:hover > img {
+    transform: scale(.8);
+    opacity: .7;
+    border-radius: 15px;
+    transition: all .3s linear;
+   
+}
+
+
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+        height: 50vh;
+        margin-top: 10px;
+        
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+        
+	width: 100%;
+        height: 50vh;
+}
+
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+/*footer*/
+
+.redes-container{
+    display: flex;
+    height: 10vh;
+    aling-item:center;
+    justify-content: center;
+    bottom: 0;
+    position: relative;
+    margin-top: 100px; 
+}
+.redes-container > #divFooter1{
+    position: absolute;
+    left: 3%;
+    margin: 0px;
+    color: white;
+    padding: 0px;
+}
+.redes-container > #divFooter1 p{
+    margin: 0px;
+}
+.redes-container > #divFooter1 h6{
+    margin-top: 10px;
+}
+.redes-container > #divFooter2{
+    position: absolute;
+    right: 3%;
+    margin: 0px;
+    color: white;
+    padding: 0px;
+}
+.redes-container > #divFooter2 strong{
+     margin-top: 45px;
+     display: block;
+}
+.redes-container ul{
+    list-style: none;
+    padding: 0px;
+    margin-top: 40px;
+}
+.redes-container ul li{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+   
+}
+
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: white;
+    color: black;
+    line-height: 50px;
+    font-size: 20px;
+     border-radius: 10px;
+     box-shadow: 0px 3px 5px 0px rgba(255,255,255,.3); 
+     transition: .2s;
+}
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.08);
+    box-shadow: 0px 4px 5px 0px rgba(255,255,255,.6); 
+    filter:none;
+}
+.redes-container ul li .facebook:hover{
+    background: #3b5998;
+}
+.redes-container ul li .twitter:hover{
+    background: #00acee;
+}
+.redes-container ul li .whatsapp:hover{
+    background: #25d366;
+}
+.redes-container ul li .instagram:hover{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
